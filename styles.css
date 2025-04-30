@@ -148,8 +148,8 @@ p{
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
-    max-width: 1200px; /* largura para caber 4 cards de 260px + gaps */
-    margin: 0 auto; /* centraliza o container */
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .item-card {
