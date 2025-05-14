@@ -489,3 +489,245 @@ p{
     background: #ffc107;
     color: #333;
   }
+  
+  @media (max-width: 1200px) {
+    .recepcao {
+        margin: 100px 0 0 50px;
+    }
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    .container .descricao {
+        width: 100%;
+        font-size: 18px;
+    }
+    .titulo h1 {
+        font-size: 100px;
+    }
+    .titulo h2 {
+        font-size: 40px;
+    }
+    .buttons .button {
+        padding: 25px 40px;
+    }
+    .charge {
+      height: 635px;
+      margin-top: -100px; /* Ajuste da margem superior */
+      position: relative;
+      top: 0;  /* Alinha a imagem de maneira mais natural com o conteúdo */
+  }
+}
+
+@media (max-width: 768px) {
+    
+    .titulo h1 {
+        font-size: 80px;
+    }
+    .titulo h2 {
+        font-size: 35px;
+    }
+    .container .descricao {
+        font-size: 16px;
+        width: 90%;
+        margin: 20px auto;
+    }
+    .charge {
+        height: 400px;
+        position: relative;
+        left: 0;
+    }
+    .buttons .button {
+        width: 80%;
+        padding: 20px 30px;
+    }
+    .menu-items {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 colunas de tamanho igual */
+      gap: 20px;
+      padding: 20px;
+    }
+  
+    .item-card {
+      width: 90%; /* ou um valor fixo se preferir, ex: 300px */
+    }
+    .product-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .product-card {
+      width: 900px; /* ou o tamanho que quiser */
+      margin: 0 auto; /* centraliza horizontalmente */
+    }
+    .shop-title {
+        margin-left: 0; /* Remove ou diminui a margem à esquerda */
+        padding-left: 20px; /* Ajuste o preenchimento conforme necessário */
+    }
+    }
+
+  
+@media (max-width: 480px) {
+  .nav-principal,
+  .search {
+      display: none;
+  }
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+.search {
+    display: none; /* Removendo a barra de pesquisa no mobile */
+}
+
+.nav-menu {
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+}
+
+.nav-menu ul {
+    display: none;
+}
+
+.nav-menu ul {
+  list-style: none;
+  display: none; /* Escondendo a lista de navegação no mobile */
+}
+
+  .titulo h1 {
+        font-size: 60px;
+    }
+    .titulo h2 {
+        font-size: 28px;
+    }
+    .container .descricao {
+        font-size: 14px;
+    }
+    .buttons {
+      margin: 25px 0 295px 0;
+      display: flex;
+      justify-content: center; /* Centraliza o botão */
+      width: 100%; /* Garante que o botão ocupe a largura disponível */
+      position: relative;
+      top: 400px; /* Ajuste para empurrar o botão para baixo, logo abaixo da imagem */
+  }
+  .button {
+      background-color: #2F2F2F;
+      color: #fff;
+      font-family: 'poppins';
+      height: 40px;
+      padding: 30px 45px;
+      border-radius: 84px;
+      font-weight: 600;
+      margin-right: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+    .charge {
+      width: auto;  /* Ajusta automaticamente a largura */
+      height: 635px; /* Altura fixa */
+      margin-top: -430px;  /* Ajuste de margem superior */
+      position: relative;
+      top: 0;  /* Alinha a imagem */
+      object-fit: contain; /* Garante que a imagem não seja distorcida */
+  }
+  .items-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between; /* Espaçamento entre as colunas */
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .item-card {
+    flex: 1 1 calc(50% - 20px); /* Garante 50% de largura com espaçamento */
+    background-color: #46433C;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .item-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .item-card img {
+    width: 100%; /* A imagem vai ocupar 100% da largura do card */
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .item-card h3 {
+    margin: 10px 0 5px;
+    font-size: 1.1rem;
+  }
+  
+  .item-card p {
+    font-size: 0.95rem;
+    color: #444;
+  }
+
+  .shop-title {
+    margin-left: 0; /* Remove ou diminui a margem à esquerda */
+    padding-left: 20px; /* Ajuste o preenchimento conforme necessário */
+}
+
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Colunas flexíveis */
+    gap: 15px;  /* Menor espaçamento entre os cards */
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .product-card {
+    background-color: #46433C;  /* Cor de fundo */
+    border-radius: 8px;  /* Bordas mais suaves */
+    padding: 8px;  /* Menos espaçamento interno */
+    display: flex;
+    align-items: center;  /* Alinha os itens verticalmente */
+    justify-content: flex-start;  /* Alinha os itens à esquerda */
+    height: 100px;  /* Altura reduzida */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);  /* Sombra mais suave */
+    width: 330px;
+  }
+  
+  .product-card img {
+    width: 70px;  /* Tamanho reduzido da imagem */
+    height: 70px;  /* Tamanho reduzido da imagem */
+    object-fit: contain;
+    margin-right: 10px;  /* Espaço entre a imagem e o texto */
+  }
+  
+  .product-card .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .product-card h3 {
+    font-size: 14px;  /* Título menor */
+    text-align: left;  /* Alinha o título à esquerda */
+    margin-bottom: 4px;  /* Menos espaço abaixo do título */
+  }
+  
+  .product-card .price {
+    font-size: 12px;  /* Preço menor */
+    color: #f39c12;
+    font-weight: bold;
+  }
+  
+  
+}
