@@ -519,53 +519,6 @@ p{
   }
 }
 
-@media (max-width: 768px) {
-    
-    .titulo h1 {
-        font-size: 80px;
-    }
-    .titulo h2 {
-        font-size: 35px;
-    }
-    .container .descricao {
-        font-size: 16px;
-        width: 90%;
-        margin: 20px auto;
-    }
-    .charge {
-        height: 400px;
-        position: relative;
-        left: 0;
-    }
-    .buttons .button {
-        width: 80%;
-        padding: 20px 30px;
-    }
-    .menu-items {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr); /* 3 colunas de tamanho igual */
-      gap: 20px;
-      padding: 20px;
-    }
-  
-    .item-card {
-      width: 90%; /* ou um valor fixo se preferir, ex: 300px */
-    }
-    .product-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .product-card {
-      width: 900px; /* ou o tamanho que quiser */
-      margin: 0 auto; /* centraliza horizontalmente */
-    }
-    .shop-title {
-        margin-left: 0; /* Remove ou diminui a margem à esquerda */
-        padding-left: 20px; /* Ajuste o preenchimento conforme necessário */
-    }
-    }
-
   
 @media (max-width: 480px) {
   .nav-principal,
