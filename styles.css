@@ -513,13 +513,11 @@ p{
     }
     .charge {
       height: 635px;
-      margin-top: -100px; /* Ajuste da margem superior */
+      margin-top: -100px; 
       position: relative;
-      top: 0;  /* Alinha a imagem de maneira mais natural com o conteúdo */
+      top: 0; 
   }
 }
-
-/* Responsividade para telas menores que 768px */
 @media (max-width: 768px) {
     .recepcao {
         flex-direction: column;
@@ -563,7 +561,7 @@ p{
 }
 
 .search {
-    display: none; /* Removendo a barra de pesquisa no mobile */
+    display: none; 
 }
 
 .nav-menu {
@@ -578,7 +576,7 @@ p{
 
 .nav-menu ul {
   list-style: none;
-  display: none; /* Escondendo a lista de navegação no mobile */
+  display: none; 
 }
 
   .titulo h1 {
@@ -593,10 +591,10 @@ p{
     .buttons {
       margin: 25px 0 295px 0;
       display: flex;
-      justify-content: center; /* Centraliza o botão */
-      width: 100%; /* Garante que o botão ocupe a largura disponível */
+      justify-content: center; 
+      width: 100%; 
       position: relative;
-      top: 400px; /* Ajuste para empurrar o botão para baixo, logo abaixo da imagem */
+      top: 400px; 
   }
   .button {
       background-color: #2F2F2F;
@@ -613,25 +611,25 @@ p{
   }
   
     .charge {
-      width: auto;  /* Ajusta automaticamente a largura */
-      height: 635px; /* Altura fixa */
-      margin-top: -430px;  /* Ajuste de margem superior */
+      width: auto;  
+      height: 635px;
+      margin-top: -430px; 
       position: relative;
-      top: 0;  /* Alinha a imagem */
-      object-fit: contain; /* Garante que a imagem não seja distorcida */
+      top: 0;  
+      object-fit: contain; 
   }
   .items-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: space-between; /* Espaçamento entre as colunas */
+    justify-content: space-between; 
     padding: 20px;
     max-width: 1000px;
     margin: 0 auto;
   }
   
   .item-card {
-    flex: 1 1 calc(50% - 20px); /* Garante 50% de largura com espaçamento */
+    flex: 1 1 calc(50% - 20px);
     background-color: #46433C;
     border-radius: 10px;
     padding: 15px;
@@ -643,7 +641,7 @@ p{
   }
   
   .item-card img {
-    width: 100%; /* A imagem vai ocupar 100% da largura do card */
+    width: 100%; 
     height: auto;
     border-radius: 8px;
   }
@@ -659,36 +657,36 @@ p{
   }
 
   .shop-title {
-    margin-left: 0; /* Remove ou diminui a margem à esquerda */
-    padding-left: 20px; /* Ajuste o preenchimento conforme necessário */
+    margin-left: 0; 
+    padding-left: 20px; 
 }
 
   .product-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Colunas flexíveis */
-    gap: 15px;  /* Menor espaçamento entre os cards */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 15px;  
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
   }
   
   .product-card {
-    background-color: #46433C;  /* Cor de fundo */
-    border-radius: 8px;  /* Bordas mais suaves */
-    padding: 8px;  /* Menos espaçamento interno */
+    background-color: #46433C;  
+    border-radius: 8px;  
+    padding: 8px;  
     display: flex;
-    align-items: center;  /* Alinha os itens verticalmente */
-    justify-content: flex-start;  /* Alinha os itens à esquerda */
-    height: 100px;  /* Altura reduzida */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);  /* Sombra mais suave */
+    align-items: center; 
+    justify-content: flex-start;  
+    height: 100px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);  
     width: 330px;
   }
   
   .product-card img {
-    width: 70px;  /* Tamanho reduzido da imagem */
-    height: 70px;  /* Tamanho reduzido da imagem */
+    width: 70px;  
+    height: 70px;  
     object-fit: contain;
-    margin-right: 10px;  /* Espaço entre a imagem e o texto */
+    margin-right: 10px;  
   }
   
   .product-card .details {
@@ -698,13 +696,13 @@ p{
   }
   
   .product-card h3 {
-    font-size: 14px;  /* Título menor */
-    text-align: left;  /* Alinha o título à esquerda */
-    margin-bottom: 4px;  /* Menos espaço abaixo do título */
+    font-size: 14px; 
+    text-align: left;  
+    margin-bottom: 4px;  
   }
   
   .product-card .price {
-    font-size: 12px;  /* Preço menor */
+    font-size: 12px;  
     color: #f39c12;
     font-weight: bold;
   }
