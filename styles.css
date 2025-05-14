@@ -519,12 +519,37 @@ p{
   }
 }
 
-  
+/* Responsividade para telas menores que 768px */
+@media (max-width: 768px) {
+    .recepcao {
+        flex-direction: column;
+        text-align: center;
+        margin: 80px 0;
+    }
+    .titulo h1 {
+        font-size: 80px;
+    }
+    .titulo h2 {
+        font-size: 35px;
+    }
+    .container .descricao {
+        font-size: 16px;
+        width: 90%;
+        margin: 20px auto;
+    }
+    .charge {
+        height: 300px;
+        position: relative;
+        left: 0;
+    }
+    .buttons .button {
+        width: 80%;
+        padding: 20px 30px;
+    }
+}
+
+/* Responsividade para telas menores que 480px */
 @media (max-width: 480px) {
-  .nav-principal,
-  .search {
-      display: none;
-  }
   header {
     flex-direction: column;
     align-items: flex-start;
@@ -569,7 +594,7 @@ p{
       justify-content: center; /* Centraliza o botão */
       width: 100%; /* Garante que o botão ocupe a largura disponível */
       position: relative;
-      top: 400px; /* Ajuste para empurrar o botão para baixo, logo abaixo da imagem */
+      top: 350px; /* Ajuste para empurrar o botão para baixo, logo abaixo da imagem */
   }
   .button {
       background-color: #2F2F2F;
@@ -588,7 +613,7 @@ p{
     .charge {
       width: auto;  /* Ajusta automaticamente a largura */
       height: 635px; /* Altura fixa */
-      margin-top: -430px;  /* Ajuste de margem superior */
+      margin-top: -500px;  /* Ajuste de margem superior */
       position: relative;
       top: 0;  /* Alinha a imagem */
       object-fit: contain; /* Garante que a imagem não seja distorcida */
